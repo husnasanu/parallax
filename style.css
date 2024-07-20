@@ -51,6 +51,9 @@ h2{
   .col-4:hover{
     transform: scaleX(-1);
   }
+  .row, .row1{
+    width: 100%;
+  }
  
   @media screen and (max-width : 400px) {
     *{
@@ -72,6 +75,10 @@ h2{
         margin: 10px;
         text-align: center;
        
+    }
+    .row img{
+      width: 300px;
+      height:350px ;
     }
 }        
     
